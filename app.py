@@ -284,9 +284,9 @@ apps_data = [
         "status": "Production"
     }
 ]
+categories = ["Business & Compliance Suite", "Productivity & Tools", "AI & Research Applications", "Portfolio & Demonstration", "Innovative Tools"]
 
 # Display apps by category
-categories = ["Business & Compliance Suite", "Productivity & Tools", "AI & Research Applications", "Portfolio & Demonstration", "Innovative Tools"]
 
 for category in categories:
     st.markdown(f'<div class="category-header">{category}</div>', unsafe_allow_html=True)
